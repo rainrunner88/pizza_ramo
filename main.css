@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0px 10px;
+    font-size: 48px;
+    font-family: "Bitter",serif;
+    line-height: 1.8;
+    appearance: none;
+    box-shadow: none;
+    border-radius: 0;
+    color: #fff;
+    background-color: #6496c8;
+    text-shadow: -1px 1px #417cb8;
+    border: none;
+}
+p {
+    font-family: "Helvetica Neue";
+}
+
+main {
+    display: table;
+    margin: 0 auto;
+}
+.image {
+    display: block;
+    position: absolute;
+}
+#pizza {
+    
+}
+#liza {
+}
+
+
+canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto;
+}
