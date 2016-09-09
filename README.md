@@ -7,28 +7,39 @@
 	- https://sungju881203.github.io/pizza_ramo/
 
 ##Technology used
-* Frontend
-  - html5 canvas
-	- css
-	- javascript
+* html5 canvas
+* css
+* javascript
 
 
-##How it works
+##How to play
 
-###Manual
-Press left & right arrow key to move.
+###Game play
+* P (pause the game)
+* Enter (start game)
+* Refresh (restart)
 
-Dodge the pizza and survive!
+###Control
+* PLAYER1: Ethan's Baby
+  Left Arrow (move left)
+  Right Arrow (move right)
+  Spacebar (fire poop)
+
+* Player2: Liza Ramo
+  A (move left)
+  D (move right)
+  Dodge the pizza and survive!
 
 ###Canvas
-draw liza on the bottom of the canvas. run forEach loop to iterate pizza array and randomly display on top of canvas.
-update & draw canvas every 10ms.
+Draws baby and liza on the bottom of the canvas.
+Runs forEach loop to iterate pizza array and randomly display on top of canvas.
+Takes space bar events and draws poops on each events.
+Gets updated & draws canvas every 10ms.
 
 ###Javascript
-pizzaCon is constructor that gets iterated to display pizza. once it gets displayed, it moves downward.
-collides detects collision between liza and pizza. when they collides, checkCollides display alert message.
+PizzaCon is constructor that gets iterated to display pizza.
+Once it gets displayed, it moves downward.
+Detects collision between liza and pizza. when they collides, checkCollides display alert message.
 
 ##Area to improve
-* display message to replay game
-* stop & rerun game
 * add scoreboard and time
