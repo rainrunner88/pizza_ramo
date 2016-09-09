@@ -24,12 +24,12 @@ Player 1 (baby) needs to fire poop to kill Player 2 (Liza).
 * Refresh (restart)
 
 ###Control
-* PLAYER1: Ethan's Baby
+* PLAYER1: Ethan's Baby  
   Left Arrow (move left)  
   Right Arrow (move right)  
   Spacebar (fire poop)  
 
-* Player2: Liza Ramo
+* Player2: Liza Ramo  
   A (move left)  
   D (move right)  
   Dodge the pizza and survive!
