@@ -30,6 +30,8 @@
   D (move right)
   Dodge the pizza and survive!
 
+##How it works
+
 ###Canvas
 Draws baby and liza on the bottom of the canvas.
 Runs forEach loop to iterate pizza array and randomly display on top of canvas.
