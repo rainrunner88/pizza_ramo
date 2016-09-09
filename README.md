@@ -32,6 +32,7 @@ Player 1 (baby) needs to fire poop to kill Player 2 (Liza).
 * Player2: Liza Ramo  
   A (move left)  
   D (move right)  
+  
   Dodge the pizza and survive!
 
 ##How it works
