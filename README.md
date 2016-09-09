@@ -1,4 +1,4 @@
-# Pizza Ramo
+# Pizza Ramo (Pizza Dodging Game)
 
 ![alt tag](https://github.com/rainrunner88/pizza_ramo/blob/master/Screen%20Shot%202016-09-09%20at%203.23.32%20PM.png)
 
