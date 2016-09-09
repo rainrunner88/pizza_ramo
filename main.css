@@ -1,49 +1,77 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Baloo Tamma', cursive;
 }
 .header {
     display: table;
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: center;
 }
 
-button {
+#logo {
     display: inline-block;
+    height: 75px;
     margin: 0 auto;
     padding: 0px 10px;
-    font-size: 48px;
-    font-family: "Bitter",serif;
+    font-size: 50px;
     line-height: 1.8;
-    appearance: none;
     box-shadow: none;
-    border-radius: 0;
+    border-radius: 10px;
     color: #fff;
-    background-color: #6496c8;
+    background-color: #eee;
     text-shadow: -1px 1px #417cb8;
     border: none;
 }
-p {
-    font-family: "Helvetica Neue";
+
+#pizza {
+    color: #f7cac9;
+}
+
+#ramo {
+    color: #92a9d1;
 }
 
 main {
-    display: table;
+    display: flex;
+    justify-content: space-around;
     margin: 0 auto;
 }
-.image {
-    display: block;
-    position: absolute;
-}
-#pizza {
-    
-}
-#liza {
+
+.player1 {
+    background-color: #f7cac9;
+    opacity: .9;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 1%;
 }
 
+.player2 {
+    background-color: #92a9d1;
+    opacity: .9;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 1%;
+}
+
+.player_header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#baby {
+    border-radius: 50%;
+}
 
 canvas {
     background: #eee;
     display: block;
     margin: 0 auto;
+    border-radius: 1%;
 }

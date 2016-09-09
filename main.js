@@ -123,7 +123,7 @@ const startBtn = {
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
         ctx.fillStlye = "white";
-        ctx.fillText("Start", canvas.width / 2, canvas.height / 2);
+        ctx.fillText("START", canvas.width / 2, canvas.height / 2);
     }
 };
 
@@ -133,7 +133,7 @@ function startGameText() {
     ctx.font = "20px Arial, sans-serif";
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
-    ctx.fillText("Press ENTER to ", canvas.width / 2, canvas.height / 2 - 50);
+    ctx.fillText("press ENTER to ", canvas.width / 2, canvas.height / 2 - 50);
 }
 
 // restart button object

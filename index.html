@@ -4,21 +4,43 @@
     <meta charset="utf-8"/>
     <title>PIZZA RAMO</title>
     <link rel="stylesheet" href="main.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
 </head>
 <body>
 <header>
     <div class="header">
-        <button>PIZZA RAMO</button>
+        <div id="logo"><span id="pizza">PIZZA </span><span id="ramo">RAMO</span></div>
         <p>Liza, dodge the Pizza! (and poop)</p>
     </div>
 </header>
-<div class="image">
-    <img src="src/liza.png" id="liza" width="100px" height="200px" alt="">
-    <img src="src/baby.jpg" id="baby" width="60px" height="60px" alt="">
-</div>
 <main>
-    <canvas id="myCanvas" width="450" height="450"></canvas>
+    <div class="player1">
+        <header class="player_header">
+            <h2>PLAYER 1</h2>
+            <img src="src/baby.jpg" id="baby" width="80px" height="80px" alt="baby">
+        </header>
+        <div class="player_control">
+            <h4>FIRE POOP (Spacebar)</h4>
+            <img src="src/blank-keyboard-key-icon.png" id="space-bar" width="60px" height="60px" alt="left-arrow">
+            <h4>MOVEMENTS (Left, Right Arrow)</h4>
+            <img src="src/arrow-left-icon.png" id="left-arrow" width="60px" height="60px" alt="left-arrow">
+            <img src="src/arrow-right-icon.png" id="right-arrow" width="60px" height="60px" alt="left-arrow">
+        </div>
+    </div>
+    <div class="canvas">
+        <canvas id="myCanvas" width="450" height="450"/>
+    </div>
+    <div class="player2">
+        <header class="player_header">
+            <h2>PLAYER 2</h2>
+            <img src="src/liza.png" id="liza" width="50px" height="100px" alt="">
+        </header>
+        <div class="player_control">
+            <h4>MOVEMENTS (A, D keys)</h4>
+            <img src="src/letter-uppercase-A-icon.png" id="a-key" width="60px" height="60px" alt="left-arrow">
+            <img src="src/letter-uppercase-D-icon.png" id="d-key" width="60px" height="60px" alt="left-arrow">
+        </div>
+    </div>
 </main>
 
 <script src="main.js"></script>
